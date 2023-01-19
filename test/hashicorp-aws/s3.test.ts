@@ -16,8 +16,8 @@ describe('Terraform S3 Module Parser Tests', () => {
   });
   it('parseS3Bucket', () => {
     mockGetResource.mockReturnValue({
-      bucket: 'smoke-test-bucket',
-    })
+      bucket: 'smoke-test-bucket'
+    });
     
     const mockDiff: TfDiff = {} as TfDiff;
 

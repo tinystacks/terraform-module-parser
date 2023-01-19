@@ -128,6 +128,6 @@ describe('Terraform Vpc Module Parser Tests', () => {
       {
         vpcId: 'aws_vpc.ts_aws_vpc.id'
       }
-    ])
+    ]);
   });
 });

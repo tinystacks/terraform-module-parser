@@ -18,7 +18,7 @@ describe('Terraform SQS Module Parser Tests', () => {
     mockGetResource.mockReturnValue({
       name: 'smoke-test-queue',
       visibility_timeout_seconds: 45
-    })
+    });
     
     const mockDiff: TfDiff = {} as TfDiff;
 
