@@ -58,7 +58,7 @@ jest.mock('../src/hashicorp-aws', () => ({
   parseInternetGateway: mockParseInternetGateway
 }));
 
-import { TfDiff } from '@tinystacks/iac-utils';
+import { TfDiff } from '@tinystacks/predeploy-infra';
 import { TinyStacksTerraformModuleParser } from '../src';
 
 const fs = require('fs');

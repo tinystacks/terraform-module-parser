@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { TfDiff } from '@tinystacks/iac-utils';
+import { TfDiff } from '@tinystacks/predeploy-infra';
 import {
   parseInternetGateway,
   parseNatGateway,

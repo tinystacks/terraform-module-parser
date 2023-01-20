@@ -1,4 +1,4 @@
-import { Json, TfDiff } from '@tinystacks/iac-utils';
+import { Json, TfDiff } from '@tinystacks/predeploy-infra';
 import { getResource } from './get-resource';
 
 function getAllOfType (tfPlan: Json, type: string, moduleAddress: string): (TfDiff & Json)[] {

@@ -4,7 +4,7 @@ jest.mock('../../src/hashicorp-aws/helpers', () => ({
   getResource: mockGetResource
 }));
 
-import { TfDiff } from '@tinystacks/iac-utils';
+import { TfDiff } from '@tinystacks/predeploy-infra';
 import { parseSqsQueue } from '../../src/hashicorp-aws';
 
 describe('Terraform SQS Module Parser Tests', () => {

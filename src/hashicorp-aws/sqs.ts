@@ -3,7 +3,7 @@ import {
   Json,
   TxtFile,
   JsonFile
-} from '@tinystacks/iac-utils';
+} from '@tinystacks/predeploy-infra';
 import { getResource } from './helpers';
 
 // https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_CreateQueue.html

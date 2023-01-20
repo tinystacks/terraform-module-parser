@@ -1,5 +1,5 @@
 import isNil from 'lodash.isnil';
-import { Json, TfDiff } from '@tinystacks/iac-utils';
+import { Json, TfDiff } from '@tinystacks/predeploy-infra';
 import get from 'lodash.get';
 import isPlainObject from 'lodash.isplainobject';
 

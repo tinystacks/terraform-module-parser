@@ -4,7 +4,7 @@ import {
   TxtFile,
   JsonFile,
   TerraformTypes
-} from '@tinystacks/iac-utils';
+} from '@tinystacks/predeploy-infra';
 import { getAllOfType, getResource } from './helpers';
 
 const {

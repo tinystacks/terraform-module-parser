@@ -1,5 +1,5 @@
 # @tinystacks/terraform-module-parser
-A Terraform parser for the resources created by the [tinystacks-terraform-modules](https://github.com/tinystacks/tinystacks-terraform-modules.git) library.  Intended as a plugin for @tinystacks/iac-utils smoke test cli.
+A Terraform parser for the resources created by the [tinystacks-terraform-modules](https://github.com/tinystacks/tinystacks-terraform-modules.git) library.  Intended as a plugin for @tinystacks/predeploy-infra smoke test cli.
 
 ## How To Use
 By default, this parser plugin is included as a peer dependency of the [smoke-test-cli]() and is therefore always available, though it is deprioritized over any explicitly configured parsers.
