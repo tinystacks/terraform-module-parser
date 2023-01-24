@@ -19,7 +19,7 @@ To increase the priority of this parser, you can install this package as a dev d
 ```
 
 ## Suppported Resources
-This module will parser the following resources from the [hashicorp/aws provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) if they originate from a module published as part of [tinystacks-terraform-modules](https://github.com/tinystacks/tinystacks-terraform-modules.git).
+This module will parse the following resources from the [hashicorp/aws provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) if they originate from a module published as part of [tinystacks-terraform-modules](https://github.com/tinystacks/tinystacks-terraform-modules.git).
 
 1. Sqs Queues (aws_sqs_queue)
 1. S3 Buckets (aws_s3_bucket)
