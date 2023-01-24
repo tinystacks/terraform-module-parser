@@ -1,7 +1,7 @@
 {
   "name": "@tinystacks/terraform-module-parser",
   "version": "0.0.1-local.2",
-  "description": "A Terraform parser for the resources created by the [tinystacks-terraform-modules](https://github.com/tinystacks/tinystacks-terraform-modules.git) library.  Intended as a plugin for @tinystacks/predeploy-infra smoke test cli.",
+  "description": "A Terraform parser for the resources created by the [tinystacks-terraform-modules](https://github.com/tinystacks/tinystacks-terraform-modules.git) library.  Intended as a plugin for @tinystacks/precloud smoke test cli.",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -11,8 +11,8 @@
     "cleanup": "rm -rf dist || true && rm *.tgz || true",
     "clean-build": "npm ci && npm run cleanup && npm run build",
     "dependency-check": "./node_modules/.bin/depcheck",
-    "install-local-predeploy-infra": "npm i -D @tinystacks/predeploy-infra@local --@tinystacks:registry=http://local-npm-registry:4873",
-    "install-remote-predeploy-infra": "npm i -D @tinystacks/predeploy-infra@latest --@tinystacks:registry=https://registry.npmjs.org",
+    "install-local-precloud": "npm i -D @tinystacks/precloud@local --@tinystacks:registry=http://local-npm-registry:4873",
+    "install-remote-precloud": "npm i -D @tinystacks/precloud@latest --@tinystacks:registry=https://registry.npmjs.org",
     "lint": "./node_modules/.bin/eslint ./src",
     "lint-fix": "./node_modules/.bin/eslint --fix ./src",
     "lint-tests": "./node_modules/.bin/eslint --config .eslintrc.test.json ./test",
@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/tinystacks/terraform-module-parser#readme",
   "devDependencies": {
-    "@tinystacks/predeploy-infra": "^1.0.1-local.1",
+    "@tinystacks/precloud": "^1.0.2",
     "@types/cached": "^6.0.0",
     "@types/jest": "^28.1.7",
     "@types/lodash.get": "^4.4.7",

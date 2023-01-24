@@ -4,7 +4,7 @@ import {
   TxtFile,
   JsonFile,
   TerraformTypes
-} from '@tinystacks/predeploy-infra';
+} from '@tinystacks/precloud';
 import { getAllOfType, getResource } from './helpers';
 
 const {

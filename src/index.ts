@@ -9,7 +9,7 @@ import {
   JsonFile,
   TerraformTypes,
   TerraformParser
-} from '@tinystacks/predeploy-infra';
+} from '@tinystacks/precloud';
 import {
   parseEip,
   parseS3Bucket,
