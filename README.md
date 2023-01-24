@@ -1,5 +1,5 @@
 # @tinystacks/terraform-module-parser
-A Terraform parser for the resources created by the [tinystacks-terraform-modules](https://github.com/tinystacks/tinystacks-terraform-modules.git) library.  Intended as a plugin for @tinystacks/precloud.
+A Terraform parser for the resources created by the [tinystacks-terraform-modules](https://github.com/tinystacks/tinystacks-terraform-modules.git) library.  Intended as a plugin for [@tinystacks/precloud](https://www.npmjs.com/package/@tinystacks/precloud).
 
 ## How To Use
 By default, this parser plugin is included as a peer dependency of the [precloud cli](https://github.com/tinystacks/precloud) and is therefore always available, though it is deprioritized over any explicitly configured parsers.
