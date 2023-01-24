@@ -1,6 +1,6 @@
 {
   "name": "@tinystacks/terraform-module-parser",
-  "version": "0.0.1-local.2",
+  "version": "0.0.1",
   "description": "A Terraform parser for the resources created by the [tinystacks-terraform-modules](https://github.com/tinystacks/tinystacks-terraform-modules.git) library.  Intended as a plugin for @tinystacks/precloud smoke test cli.",
   "main": "dist/index.js",
   "files": [
